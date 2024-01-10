@@ -7,11 +7,9 @@ function BusinessCard(props){
     <p>{props.description}</p>
     <h3>Interests</h3>
     <ul>
-      {props.interests.map((str,index) => <li key={index} style={{
-        listStyle: 'none'
-      }}>{str}</li>)}
+      {props.interests.map((str,index) => <li key={index} >{str}</li>)}
     </ul>
-    <button>Linkedin</button>
+    <button>LinkedIn</button>
     <button>Twitter</button>
   </div>
 
